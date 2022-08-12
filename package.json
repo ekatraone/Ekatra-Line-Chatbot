@@ -1,0 +1,35 @@
+{
+  "name": "ekatra-line-chatbot",
+  "version": "1.0.0",
+  "description": "Ekatra Line chatbot is a node.js based interactive chatbot that helps deliver course contents to students via Line on regular basis.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekatraone/Ekatra-Line-Chatbot.git"
+  },
+  "dependencies": {
+    "airtable": "^0.11.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "keywords": [
+    "nodejs",
+    "chatbot"
+  ],
+  "author": "Ramsha Shaikh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ekatraone/Ekatra-Line-Chatbot/issues"
+  },
+  "homepage": "https://github.com/ekatraone/Ekatra-Line-Chatbot#readme"
+}
